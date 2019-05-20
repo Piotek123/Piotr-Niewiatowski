@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+	<p> Funkcja wywołana kliknięciem </p>
+	<button onclick="funkcjaKliku()"> Naciścij
+	</button>
+		<p id= "klikniecie"> </p>
+		<p id= "a"> Przykładowy tekst </p>
+	<!--
+	<script>
+		function funkcjaKliku(){
+		alert("czy napewno chcesz przejść dalej?")="Nacisnąłeś(aś) przycisk";
+		}
+	</script-->
+.
+	<script>
+		setTimeout(function(){
+		document.getElementById('a').innerHTML=' ';
+		}, 5000);
+	</script>
+</body>
+</html>
