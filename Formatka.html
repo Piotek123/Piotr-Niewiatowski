@@ -13,7 +13,20 @@
 	</div>
 	<p id="button">
 		<input type="reset"></input>
-		<input type="submit"></input>
+		<input type="submit" onclick="SprawdzDane()" id="Wyślij"></input>
 	</button>
+<script type="text/javascript">
+function SprawdzDane() {
+var imie =document.getElementById('imie')
+var nazwisko =document.getElementById('nazwisko')
+var telefon =document.getElementById('telefon')
+var adres =document.getElementById('adres')
+var kod =document.getElementById('kod')
+var miasto =document.getElementById('miasto')
+	if(imie=='Kuba')
+		{print "nie graj"}
+	else
+		{print "graj"}
+
 </body>
 </html>
